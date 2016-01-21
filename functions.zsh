@@ -1,3 +1,3 @@
-for fc in `ls $ZSH_PLUGIN_LINUX_DIR/func.*.zsh`; do
+for fc in `ls $ZSH_OS_DIR/func.*.zsh`; do
   source $fc
 done

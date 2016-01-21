@@ -1,5 +1,6 @@
-alias ic='ifconfig'
-compdef _ifconfig ic=ifconfig
-alias ifl=int_list
+if [[ ! -z "$(where ifconfig)" ]]; then
+  alias ic='ifconfig'
+  compdef _ifconfig ic=ifconfig
+fi
 
 alias dhcp='sudo $DHCP_CLIENT'
