@@ -4,7 +4,7 @@ key[right]='\033OC'
 key[left]='\033OD'
 
 key[delete]='\033[3~'
-key[backspace]='\?'
+key[backspace]='\033\?'
 
 key[shift_tab]='\033[Z'
 key[ctrl_left]='\033[1;5D'
